@@ -26,5 +26,12 @@ namespace basics_06
            return pages = pages + 50;  
         }
         #endregion
+
+        #region sixth answer
+        public static double ApplyDiscount(double[] prices) 
+        {
+            return prices[0] = prices[0] - 5;
+        }
+        #endregion
     }
 }

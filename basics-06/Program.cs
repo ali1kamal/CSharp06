@@ -28,11 +28,19 @@
             #endregion
 
             #region fifth answer
-            int pages = 400;
-            Console.WriteLine(pages);
-            TaskMethods.AddBonusPages(pages);
-            //it won't be changed because the process of method occurs in stack frame of method and the variable pages is in stack so there isn't in the same place in memory
-            Console.WriteLine(pages);
+            //int pages = 400;
+            //Console.WriteLine(pages);
+            //TaskMethods.AddBonusPages(pages);
+            ////it won't be changed because the process of method occurs in stack frame of method and the variable pages is in stack so there isn't in the same place in memory
+            //Console.WriteLine(pages);
+            #endregion
+
+            #region sixth answer
+            double[] prices = { 25.5, 40.0 };
+            Console.WriteLine(prices[0]);
+            TaskMethods.ApplyDiscount(prices);
+            //it will change because the prices in stack has the addresse of the array not the value of the array and prices in stack frame has the same addresse so any change will occur to both of them
+            Console.WriteLine(prices[0]);
             #endregion
         }
     }
