@@ -63,5 +63,12 @@ namespace basics_06
             }
         }
         #endregion
+
+        #region answer ten
+        public static string PrintBookInfo(string title, int pages = 300)
+        {
+            return $"Book Title: {title}\nBook Pages: {pages}";
+        }
+        #endregion
     }
 }

@@ -60,10 +60,18 @@
             #endregion
 
             #region answer nine
-            string title = "Clean Code";
-            TaskMethods.TryGetPrice(title, out double price);
-            Console.WriteLine(price);
+            //string title = "Clean Code";
+            //TaskMethods.TryGetPrice(title, out double price);
+            //Console.WriteLine(price);
             #endregion
-        }
+
+            #region answer ten
+            string bookInfo = TaskMethods.PrintBookInfo("Clean Code");
+            Console.WriteLine(bookInfo);
+            Console.WriteLine("=======");
+            string info = TaskMethods.PrintBookInfo("My Book", 450);
+            Console.WriteLine(info);
+            #endregion
     }
+}
 }
