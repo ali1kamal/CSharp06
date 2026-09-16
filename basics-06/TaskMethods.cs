@@ -40,5 +40,12 @@ namespace basics_06
             return pages = pages + 50;
         }
         #endregion
+
+        #region answer eight
+        public static double[] ReplaceArray(ref double[] prices)
+        {
+          return  prices = new double[] { 10.0, 12.5, 15.0 };
+        }
+        #endregion
     }
 }

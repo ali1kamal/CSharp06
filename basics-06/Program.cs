@@ -44,11 +44,19 @@
             #endregion
 
             #region seventh answer
-            int pages = 400;
-            Console.WriteLine(pages);
-            TaskMethods.AddBonusPages(ref pages);
-            //it will change because passing value type by reference it send all the variable to method and the process occur on it not like passing by value
-            Console.WriteLine(pages);
+            //int pages = 400;
+            //Console.WriteLine(pages);
+            //TaskMethods.AddBonusPages(ref pages);
+            ////it will change because passing value type by reference it send all the variable to method and the process occur on it not like passing by value
+            //Console.WriteLine(pages);
+            #endregion
+
+            #region answer eight 
+            double[] arr = { 19.5, 5.25};
+            Console.WriteLine(arr.Length);
+            TaskMethods.ReplaceArray(ref arr);
+            //it will be 3 because the arr in stack has the addresse of the array in heap and while passing by ref we pass the variable with the value so the changes will happen to it 
+            Console.WriteLine(arr.Length);
             #endregion
         }
     }
