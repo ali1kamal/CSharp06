@@ -24,7 +24,15 @@
             #endregion
 
             #region fourth answer
-            TaskMethods.PrintBookTitle("Clean Code");
+            //TaskMethods.PrintBookTitle("Clean Code");
+            #endregion
+
+            #region fifth answer
+            int pages = 400;
+            Console.WriteLine(pages);
+            TaskMethods.AddBonusPages(pages);
+            //it won't be changed because the process of method occurs in stack frame of method and the variable pages is in stack so there isn't in the same place in memory
+            Console.WriteLine(pages);
             #endregion
         }
     }
