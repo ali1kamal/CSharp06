@@ -36,11 +36,19 @@
             #endregion
 
             #region sixth answer
-            double[] prices = { 25.5, 40.0 };
-            Console.WriteLine(prices[0]);
-            TaskMethods.ApplyDiscount(prices);
-            //it will change because the prices in stack has the addresse of the array not the value of the array and prices in stack frame has the same addresse so any change will occur to both of them
-            Console.WriteLine(prices[0]);
+            //double[] prices = { 25.5, 40.0 };
+            //Console.WriteLine(prices[0]);
+            //TaskMethods.ApplyDiscount(prices);
+            ////it will change because the prices in stack has the addresse of the array not the value of the array and prices in stack frame has the same addresse so any change will occur to both of them
+            //Console.WriteLine(prices[0]);
+            #endregion
+
+            #region seventh answer
+            int pages = 400;
+            Console.WriteLine(pages);
+            TaskMethods.AddBonusPages(ref pages);
+            //it will change because passing value type by reference it send all the variable to method and the process occur on it not like passing by value
+            Console.WriteLine(pages);
             #endregion
         }
     }

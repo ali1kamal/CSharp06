@@ -33,5 +33,12 @@ namespace basics_06
             return prices[0] = prices[0] - 5;
         }
         #endregion
+
+        #region seventh answer
+        public static int AddBonusPages(ref int pages)
+        {
+            return pages = pages + 50;
+        }
+        #endregion
     }
 }
