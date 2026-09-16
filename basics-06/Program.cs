@@ -74,8 +74,12 @@
             #endregion
 
             #region answer eleven
-            string info = TaskMethods.PrintBookInfo(pages: 150,title: "Book Title");
-            Console.WriteLine(info);
+            //string info = TaskMethods.PrintBookInfo(pages: 150,title: "Book Title");
+            //Console.WriteLine(info);
+            #endregion
+
+            #region answer twleve
+            TaskMethods.PrintAllTitles("Clean Code", "Data Structure", "Operating Systems");
             #endregion
         } 
     }

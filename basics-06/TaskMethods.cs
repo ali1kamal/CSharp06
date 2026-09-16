@@ -70,5 +70,13 @@ namespace basics_06
             return $"Book Title: {title}\nBook Pages: {pages}";
         }
         #endregion
+
+        #region answer twelve
+        public static void PrintAllTitles(params string[] titles)
+        {
+            foreach(string title in titles)
+                Console.WriteLine(title);
+        }
+        #endregion
     }
 }
