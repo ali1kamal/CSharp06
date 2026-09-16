@@ -11,12 +11,16 @@
             #endregion
 
             #region second answer
-            int[,] shelfCopies =
-            {
-                {3,5},
-                {1,4}
-            };
-            Console.WriteLine(shelfCopies[1,0]);
+            //int[,] shelfCopies =
+            //{
+            //    {3,5},
+            //    {1,4}
+            //};
+            //Console.WriteLine(shelfCopies[1,0]);
+            #endregion
+
+            #region third answer
+            TaskMethods.PrintWelcomeMessage();
             #endregion
         }
     }
